@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "LinkedInAngularProject"
+    }
+  },
+  "defaultProject": "LinkedInAngularProject",
+  "cli": {
+    "analytics": false
+  }
 }
