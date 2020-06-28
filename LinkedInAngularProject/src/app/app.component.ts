@@ -17,6 +17,10 @@ export class AppComponent {
 
   }
 
+  onDeleteMediaItem(mediaItem){
+    
+  }
+
 
 
 }

@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
+import { EventEmitter } from 'protractor';
 
 @Component({
   selector: 'app-media-item',
@@ -16,8 +17,11 @@ export class MediaItemComponent implements OnInit {
 
   @Input() mediaItem;
 
+  @Output() delete = new EventEmitter;
+
   onDelete(){
     console.log("Deleted");
+    this.delete.emit(this.mediaItem);
   }
 
 
