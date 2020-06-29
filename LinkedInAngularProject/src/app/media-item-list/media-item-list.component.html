@@ -1,3 +1,3 @@
 <section>
-    <app-media-item *ngFor="let mediaItem of mediaItems" [mediaItem]="mediaItem" (delete)='onDeleteMediaItem($event)'></app-media-item>
+    <app-media-item *ngFor="let mediaItem of mediaItems" [mediaItem]="mediaItem" (delete)='onDeleteMediaItem($event)' [ngClass]="{'medium-series':mediaItem.medium === 'Series','medium-movies':mediaItem.medium === 'Movies' }"></app-media-item>
 </section>

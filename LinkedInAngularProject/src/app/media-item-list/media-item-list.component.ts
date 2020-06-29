@@ -25,7 +25,7 @@ export class MediaItemListComponent implements OnInit {
     {
       id: 2,
       name: 'Nachos',
-      medium: 'Series',
+      medium: 'Movies',
       category: 'Comedy',
       year:2010,
       watchedOn: 2347798023,
@@ -52,7 +52,7 @@ export class MediaItemListComponent implements OnInit {
     {
       id: 5,
       name: 'WalkTalk',
-      medium: 'Series',
+      medium: 'Movies',
       category: 'Thriller',
       year:2012,
       watchedOn: 23456457023,
